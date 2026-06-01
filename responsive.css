@@ -45,7 +45,7 @@
   .nav-links { gap: 1.5rem; }
   section { padding: 5rem 2.5rem; }
   .hero-left { padding: 5rem 2.5rem 3rem; }
-  .hero-img-wrap { width: 320px; }
+  .hero-img-wrap { width: 320px; height: 420px; }
   .hero-name { font-size: 4rem; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
@@ -87,7 +87,7 @@
     padding: 2rem 1.25rem 0;
     align-items: center;
   }
-  .hero-img-wrap { width: 240px; }
+  .hero-img-wrap { width: 260px; height: 340px; }
   .hero-card { left: 50%; transform: translateX(-50%); bottom: 1.5rem; min-width: 180px; }
 
   /* About */
@@ -134,7 +134,7 @@
 /* ── SMALL MOBILE: ≤480px ── */
 @media (max-width: 480px) {
   .hero-name { font-size: clamp(2.4rem, 14vw, 3rem); }
-  .hero-img-wrap { width: 200px; }
+  .hero-img-wrap { width: 200px; height: 280px; }
   .stat-num { font-size: 1.6rem; }
   .hero-stats { gap: 1.2rem; }
   .section-title { font-size: 1.6rem; }
