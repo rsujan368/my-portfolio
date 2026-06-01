@@ -1,1 +1,11 @@
+# robots.txt — Sujan Rai Portfolio
+# www.rsujan.com.np
 
+User-agent: *
+Allow: /
+
+# Block any admin or private paths
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://www.rsujan.com.np/sitemap.xml
