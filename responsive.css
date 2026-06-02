@@ -143,3 +143,10 @@
   .contact-info { gap: 0.8rem; }
   .project-card { padding: 1.2rem; }
 }
+@media (max-width: 768px) {
+  #beyond { padding: 4rem 1.25rem !important; }
+  #beyond > div:nth-child(2) { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 1024px) {
+  #beyond > div:nth-child(2) { grid-template-columns: repeat(2,1fr) !important; }
+}
